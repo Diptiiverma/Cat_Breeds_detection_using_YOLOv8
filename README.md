@@ -1,7 +1,7 @@
 
 # 🐱 Cat Breeds Detection using YOLOv8
 
-This project is a deep learning–based object detection system that identifies and classifies different cat breeds from images using YOLOv8. The model is trained on a custom dataset from Roboflow and can detect multiple cats and predict their breed in real time.
+This project is a deep learning–based object detection system that identifies and classifies different cat breeds from images and videos using YOLOv8. The model is trained on a custom dataset from Roboflow and can detect multiple cats and predict their breed in real time.
 
 ---
 
@@ -9,9 +9,8 @@ This project is a deep learning–based object detection system that identifies 
 
 The goal of this project is to build an accurate computer vision model that can:
 
-- Detect cats in images
+- Detect cats in images and videos
 - Classify cat breeds
-- Handle multiple cats in one image
 - Perform real-time predictions
 - Provide bounding box detection with labels
 
@@ -108,7 +107,6 @@ Test: /content/CatBreedsDetection/Cat-Breeds-3/test/images
 - Multi-class object detection
 - Real-time prediction
 - Bounding box visualization
-- Supports multiple cats in one image
 - Easy to deploy
 - Custom dataset training
 
@@ -144,26 +142,6 @@ Model performance is evaluated using:
 - Recall
 - mAP (Mean Average Precision)
 - Validation loss
-
----
-
-## 🎯 Applications
-
-- Pet breed identification systems
-- Veterinary assistance tools
-- Animal monitoring systems
-- Smart camera detection
-- Educational AI projects
-
----
-
-## 📌 Future Improvements
-
-- Add more cat breeds
-- Increase dataset size
-- Mobile app deployment
-- Real-time webcam detection
-- Edge device optimization
 
 ---
 
