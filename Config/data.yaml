@@ -1,0 +1,16 @@
+names:
+- American Curl
+- Bengal
+- British Shorthair
+- Persian
+- Siamese
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: cat-breeds-fzcip
+  url: https://universe.roboflow.com/philippine-cat-breeds/cat-breeds-fzcip/dataset/3
+  version: 3
+  workspace: philippine-cat-breeds
+test: /content/CatBreedsDetection/Cat-Breeds-3/test/images
+train: /content/CatBreedsDetection/Cat-Breeds-3/train/images
+val: /content/CatBreedsDetection/Cat-Breeds-3/valid/images
